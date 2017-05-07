@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>reddit page redo</title>
+    <script src="angular.min.js"></script>
+  </head>
+
+
+  <body ng-app="myReddit" ng-controller="myController">
+
+    <div ng-repeat="post in posts">
+     <ul>
+      <li>{{ post.data.title }}</li>
+      <img ng-src="{{ post.data.url }}">
+    </ul>
+    </div>
+
+
+
+  <script src="app.js"></script>
+  <script src="controller.js"></script>
+  <!--<script src="factory.js"></script>-->
+  </body>
+</html>
