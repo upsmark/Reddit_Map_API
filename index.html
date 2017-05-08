@@ -4,16 +4,19 @@
     <meta charset="utf-8">
     <title>reddit page redo</title>
     <script src="angular.min.js"></script>
+    <link href="styles.css" rel="stylesheet" type="text/css"></link>
   </head>
 
 
   <body ng-app="myReddit" ng-controller="myController">
 
-    <div ng-repeat="post in posts">
+    <h2>Sub-Reddit Map Posts</h2>
+
+    <div class="mapps" ng-repeat="post in posts">
      <ul>
       <li>{{ post.data.title }}</li>
-      <img ng-src="{{ post.data.url }}">
-    </ul>
+     </ul>
+     <img ng-src="{{ post.data.url }}">
     </div>
 
 
