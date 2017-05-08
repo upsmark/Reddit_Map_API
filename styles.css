@@ -1,16 +1,12 @@
 img {
-   width: 25%;
+   width: 50%;
    height:auto;
 }
 
-  /*.mapps {
-   float: left;
-   width: 600px;
-   height: 600px;
-   margin: 10px;
-
-}*/
-
 body {
    background-color: #ccd5e5;
+}
+
+h2 {
+   color: #76a4ed;
 }
